@@ -1,0 +1,37 @@
+{
+
+  "manifest_version": 2,
+  "name": "rmElem",
+  "version": "0.1",
+
+  "description": "Annoyed by a sticky header or intrusive pop-up? Remove any element on the page in one click! Simple and doesn't need any permission.",
+
+  "icons": {
+    "48": "icons/icon-48.svg",
+    "96": "icons/icon-48.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "browser_style": false,
+    "default_icon": {
+      "19": "icons/icon-48.svg",
+      "38": "icons/icon-48.svg"
+    },
+    "default_title": "Remove elements",
+    "show_matches": ["*://*/*"]
+  },
+
+  "permissions": []
+
+}
