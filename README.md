@@ -1,6 +1,7 @@
 # rmElem
 
-A browser extension to easily remove any DOM element by simply clicking.
+A browser extension to easily remove any DOM element by simply clicking. ![](./red.svg)
+
 Comes in several flavours:
 
 - Page extension (currently Firefox only)
