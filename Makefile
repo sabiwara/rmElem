@@ -1,6 +1,10 @@
 .PHONY: firefox
 firefox:
-	cd firefox && zip -r -FS ../rmElem.zip * --exclude '*.git*'
+	npx web-ext build --source-dir firefox
+
+.PHONY: run
+run:
+	npx web-ext run --source-dir firefox
 
 .PHONY: bookmarklet
 bookmarklet:
