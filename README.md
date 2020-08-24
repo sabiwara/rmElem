@@ -1,11 +1,11 @@
-# rmElem
+# rmElem 🔥️
 
 A browser extension to easily remove any DOM element by simply clicking. ![](./red.svg)
 
 Comes in several flavours:
 
-- Page extension (currently Firefox only)
-- [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+- 🦊️ Firefox extension: [get it now! 📦️](https://addons.mozilla.org/en-US/firefox/addon/rmelem/)
+- 🔖️ [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) (see [install instructions](#install-as-a-bookmarklet))
 
 ## How to use
 
